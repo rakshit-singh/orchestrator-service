@@ -1,6 +1,6 @@
 # orchestrator-service Documentation
 
-## Instructions to run the Orchestration Service: </br>
+## Instructions to run the Orchestrator Service: </br>
 
 To run the service navigate to the folder containing the repository and follow these instructions:
 1) From the root directory containing the repo navigate to the server folder. Then run the following two command in the given order </br>
