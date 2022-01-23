@@ -1,0 +1,20 @@
+syntax = "proto3";
+option go_package = './';
+
+service DataService{
+    rpc GetMockUserData(UserNameDS) returns (UserDS){}
+}
+
+//UserName type for Data Mock Service
+// UserNAmeDS used to avoid name conflicts with UserName defined in Service1.proto
+message UserNameDS{
+    string name = 1;
+}
+
+//User type for Data Mock Service
+// UserDS used to avoid name conflicts with User defined in Service1.proto
+message UserDS{
+    string name = 1;
+    string class = 2;
+    int32 roll = 3;
+}

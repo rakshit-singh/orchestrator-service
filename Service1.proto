@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package = "./";
+
+service ProcessRequest{
+    rpc GetUserByName(UserName) returns (User){}
+}
+
+//Wrapper for the string containing the name of the user provided by the client
+message UserName{
+    string name = 1;
+}
+
+message User{
+    string name = 1;
+    string class = 2;
+    int32 roll = 3;
+}
