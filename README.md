@@ -9,7 +9,7 @@ To run the service navigate to the folder containing the repository and follow t
 2) From the root folder navigate to ./DataMock/DataMockService and run the command </br>
     **`go run DataMockService.go`**.
 3) From the root folder navigate to client folder and run the command </br>
-    **`go run client.go "name"`**     where "name" will be the name of the user that you want tio fetch
+    **`go run client.go "name"`**     where "name" will be the name of the user that you want to fetch
     
 </br>
 </br>
